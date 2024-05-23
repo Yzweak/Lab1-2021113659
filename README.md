@@ -1,8 +1,4 @@
-# README
-
-## 项目名称
-
-Text Analysis and Random Walk
+# Text Analysis and Random Walk
 
 ## 项目描述
 
@@ -40,14 +36,18 @@ streamlit run code/Graph-app.py
 ## 功能介绍
 
 - **显示图形**：显示文本图形，节点为单词，边为单词之间的关系。
+- ![](image/Picture1.png)
 - **生成新文本**：在用户输入的文本中，每两个单词之间插入一个桥接词，生成新的文本。
+- ![](image/Picture3.png)
 - **查询桥接词**：查询两个单词之间的所有桥接词,同步显示有向图中桥接词的位置。
+- ![](image/Picture2.png)
 - **显示最短路径**：计算并显示两个单词之间的所有最短路径。
+- ![](image/Picture4.png)
 - **随机漫步**：在图中进行随机漫步，从一个随机节点开始，然后随机选择一个邻居节点，直到没有可选择的邻居节点为止。
-
+- ![](image/Picture5.png)
 ## 开发者
 
-Yzweak
+Yzweak & Lixian Dai
 
 ## 版权信息
 
